@@ -1,6 +1,6 @@
 window.onload = function() {
   // Set the launch date for the countdown
-  let launchDate = new Date("2024-10-21T12:00:00").getTime();
+  let launchDate = new Date("2024-10-24T12:00:00").getTime();
   //hello
   // Start the countdown timer that calls the tick function every second
   let timer = setInterval(tick, 1000);
