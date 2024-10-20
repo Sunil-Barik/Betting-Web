@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    margin: 0%;
+    height: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0005257c;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container{
+   max-width:350px;
+   height: 720px; 
+   position: absolute;
+   background: #ffffff;
+   border-radius: 40px;
+   cursor: pointer;
+   overflow: hidden; /* Hide the scrollbar */
+   overflow-y: auto;
+   
+   
+}
+.container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+}
+.nav-bar{
+    width: 10%;
+    left: -7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    padding-right: 70px;
+
+
+
+}
+li{
+    float: left;
+    list-style: none;
+
+   
+
+}
+
+i.nav-icon{
+    background: #ffffff;
+   color: #077c74;
+   font-size: 2.4rem;
+   cursor: pointer;
+
+}
+
+.Register{
+    
+    background-color: #077c74;
+    padding: 4px 11px;
+    font-weight:  300;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-right: 7px;
+}
+.signine{
+    color:#e5a22d;
+    text-decoration: none;
+
+}
+.login{
+    background-color: #ffffff;
+    padding: 3px 11px;
+    font-weight: 300;
+    font-size: 01rem;
+    border-radius: 10px;
+    border: 2px solid #077c74;
+    margin-right: 150px;
+
+
+    
+}
+.signin{
+    color: #e5a22d;
+    text-decoration: none;
+
+}
+.box{
+    max-width: 400px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+.box .search-box{
+    position: relative;
+    height: 18px;
+    max-width: 310px;
+    background: #f7f7f7;
+    border-radius: 25px;
+margin-left: 20px;
+
+}
+.search-box input{
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    border-radius: 25px;
+    background-color: #f5f5f5;
+    outline: none;
+    border: 1px solid #d4d4d4;
+    padding-left: 20px;
+    font-size: 14px;
+
+}
+.search-box ::placeholder{
+    color: #e5a22d;
+}
+.search-box .icon{
+    position: absolute;
+    right: 0;
+    width: 49px;
+    background: #e5a22d;
+    height: 120%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    border-radius: 0 25px 25px 0;
+    color:white ;
+    font-size: 1.3rem;
+
+}
+
+.games-box{
+    margin-top: 15px;
+
+    position: absolute;
+    background-color: #c0c0c0;
+
+    width: 100%;
+    height: 200px;
+
+
+}
+.popular-content {
+    display: flex;
+}
+.popular-content i{
+    margin-top: 210px;
+    margin-left: 155px;
+    font-size: 2rem;
+    color: #c0c0c0;
+    
+}
+.con{
+    margin-bottom: 10px;
+}
+ .con .lottery{
+    position: absolute;
+    background-color: #077c74;
+    padding: 10px 35px;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-left: 30px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 10px slategrey;
+
+}
+.con .product{
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px 35px;
+    border: 1px solid #077c74;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-left: 189px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.boxes{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 20px;
+
+}
+.boxes1{
+
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 20px;
+
+}
+.boxes2{
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 20px;
+}
+.boxes3{
+    position: absolute;
+    margin-top: 640px;
+    margin-left: 20px;
+}
+.boxes4{
+    position: absolute;
+    margin-top: 820px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+
+}
+.text{
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+.boxe{
+    position: relative; 
+    padding: 35px 114px;
+    border: 2px solid #c0c0c0;
+    border-radius: 5px;
+}
+.inbox{
+    border-radius: 5px;
+    position: absolute;
+    border: 2px solid #c0c0c0;
+    left:-1px;
+    top: 0px;
+     width: 100%;
+     height: 25%;
+     background-color: rgb(192, 192, 192);
+     margin-bottom: 990px;
+ 
+}
+.mega{
+    font-size: 1.5rem;
+    position: absolute;
+left: 5px;
+top: -34px;
+    white-space: nowrap;
+    color: red;
+    
+    
+}
+.time{
+
+    font-weight: 400;
+    font-size: 0.8rem;
+    position: absolute;
+right: 5px;
+top:7px;
+}
+
+.money{
+    position: relative;
+    white-space: nowrap;
+    left:-100px ;
+    top: -3px;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+.b{
+    position: relative;
+    right: -220px;
+    padding-top: 3px;
+    border: 1px solid #077c74;
+    width: 60px;
+    height: 17px;
+    top: 58px;
+    text-align: center;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    color:#e5a22d;
+    background-color: #077c74;
+    font-size: 0.9rem;
+    
+
+}
+.tex{
+    position: absolute;
+    left:14px;
+    font-size:0.8rem;
+    color: red;
+    font-weight: 500;
+}
+.te{
+    position: absolute;
+    right:14px;
+    font-weight: 500;
+    font-size:0.8rem;
+    color: black; 
+}
+.line{
+    position: absolute;
+    width: 130px;
+    left: 16px;
+    height: 0px;
+     bottom: 10px;
+    background-color: #e5a22d;
+    border: 2px solid #e5a22d;
+}
+.linee{
+    position: absolute;
+    width: 170px;
+    right: 14px;
+    height: 0px;
+     bottom: 10px;
+    background-color:#077c74;
+    border: 2px solid #077c74;
+}
